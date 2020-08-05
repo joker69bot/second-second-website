@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(65, 65, 65);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navlinks {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid darkred;
+}
+
+li:hover {
+    background-color: rgb(139, 139, 139);
+    color: black;
+}
+
+.imagebanner {
+    background-image: url("Images/imagebanner.jpg");
+    padding: 70px 0;
+    background-size: cover;
+    border-bottom: 1px solid darkred;
+    border-top: 1px solid darkred;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(167, 167, 167);
+    background-color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: rgb(167, 167, 167);
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid darkred;
+}
+
+.businesses {
+    text-align: center;
+    margin: 32px;
+    color: rgb(167, 167, 167);
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid darkred;
+    }
+
+    .Ventures {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        color: rgb(167, 167, 167);
+    }
+}
